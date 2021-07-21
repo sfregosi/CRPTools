@@ -1,4 +1,8 @@
-# pgUtils
+# CRP Tools
+Various tools for CRP projects, that others in CRP may find useful. Mix of R and Matlab. 
+
+
+## PAMpal_BANTER folder:
 Utilities (for R) to deal with issues across different versions of Pamguard/PAMpal/PAMr/BANTER
 
 If a BANTER model was created in PAMr but features were extracted in PAMpal, you might get an error about the variables in the model and new detector data not matching. 
@@ -20,4 +24,14 @@ BANTER_Det$detectors$Click_Detector_3$PeakHz_3dB = BANTER_Det$detectors$Click_De
 names(BANTER_Det$detectors$Cepstrum_Detector)[names(BANTER_Det$detectors$Cepstrum_Detector) == 'iciSlope'] = 'avgSlope'
 # check again
 checkResult = checkVariables(bant.mdl, BANTER_Det)
+```
+
+## CruiseSupport folder:
+MATLAB function to create .gpx files from DASBR locations for reading into the R/V Sette's nav system on the bridge
+
+Example:
+```
+path_in = 'C:\DasbrDrifts\';
+fileName = 'IMEI_P_Variables.csv';
+dasbrDriftCSVToGPX(path_in, fileName);
 ```
