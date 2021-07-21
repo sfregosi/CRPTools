@@ -26,7 +26,7 @@ names(BANTER_Det$detectors$Cepstrum_Detector)[names(BANTER_Det$detectors$Cepstru
 checkResult = checkVariables(bant.mdl, BANTER_Det)
 ```
 
-## CruiseSupport folder:
+## SetteDrifts folder:
 MATLAB function to create .gpx files from DASBR locations for reading into the R/V Sette's nav system on the bridge
 
 Example:
