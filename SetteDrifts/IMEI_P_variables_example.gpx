@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="GDAL 2.2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ogr="http://osgeo.org/gdal" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata><bounds minlat="12.495200000000001" minlon="144.439433333333000" maxlat="12.571716666666701" maxlon="144.518333333333004"/></metadata>                
+<wpt lat="12.571716666666701" lon="144.518333333333004">
+  <fix>1</fix>
+  <extensions>
+    <ogr:UnitName>P</ogr:UnitName>
+    <ogr:ReportTimeUTC>06-15-2021 13:07:01.000</ogr:ReportTimeUTC>
+    <ogr:Lat>12.571716666666701</ogr:Lat>
+    <ogr:Lon>144.518333333333004</ogr:Lon>
+    <ogr:NumberOfSatellites>8</ogr:NumberOfSatellites>
+    <ogr:Altitude>-7.6 m</ogr:Altitude>
+    <ogr:Speed>0.6 km/h</ogr:Speed>
+    <ogr:Course>243.13 degrees from True North</ogr:Course>
+    <ogr:VerticalVelocity>-0.1 m/s</ogr:VerticalVelocity>
+    <ogr:HorizDilutionofPrecision>1.05</ogr:HorizDilutionofPrecision>
+    <ogr:VertDilutionOfPrecision>1.47</ogr:VertDilutionOfPrecision>
+    <ogr:Format>GPSI</ogr:Format>
+    <ogr:Motion>0</ogr:Motion>
+    <ogr:Version>NAL5</ogr:Version>
+  </extensions>
+</wpt>
+<wpt lat="12.5672" lon="144.516983333333002">
+  <fix>1</fix>
+  <extensions>
+    <ogr:UnitName>P</ogr:UnitName>
+    <ogr:ReportTimeUTC>06-15-2021 15:06:31.000</ogr:ReportTimeUTC>
+    <ogr:Lat>12.5672</ogr:Lat>
+    <ogr:Lon>144.516983333333002</ogr:Lon>
+    <ogr:NumberOfSatellites>7</ogr:NumberOfSatellites>
+    <ogr:Altitude>-5.7 m</ogr:Altitude>
+    <ogr:Speed>2.4 km/h</ogr:Speed>
+    <ogr:Course>308.19 degrees from True North</ogr:Course>
+    <ogr:VerticalVelocity>0.4 m/s</ogr:VerticalVelocity>
+    <ogr:HorizDilutionofPrecision>1.12</ogr:HorizDilutionofPrecision>
+    <ogr:VertDilutionOfPrecision>2.59</ogr:VertDilutionOfPrecision>
+    <ogr:Format>GPSI</ogr:Format>
+    <ogr:Motion>0</ogr:Motion>
+    <ogr:Version>NAL5</ogr:Version>
+  </extensions>
+</wpt>
+<wpt lat="12.5573333333333" lon="144.507116666667002">
+  <fix>1</fix>
+  <extensions>
+    <ogr:UnitName>P</ogr:UnitName>
+    <ogr:ReportTimeUTC>06-15-2021 17:07:03.000</ogr:ReportTimeUTC>
+    <ogr:Lat>12.5573333333333</ogr:Lat>
+    <ogr:Lon>144.507116666667002</ogr:Lon>
+    <ogr:NumberOfSatellites>9</ogr:NumberOfSatellites>
+    <ogr:Altitude>-7.9 m</ogr:Altitude>
+    <ogr:Speed>2.2 km/h</ogr:Speed>
+    <ogr:Course>236.66 degrees from True North</ogr:Course>
+    <ogr:VerticalVelocity>0.2 m/s</ogr:VerticalVelocity>
+    <ogr:HorizDilutionofPrecision>0.91</ogr:HorizDilutionofPrecision>
+    <ogr:VertDilutionOfPrecision>1.49</ogr:VertDilutionOfPrecision>
+    <ogr:Format>GPSI</ogr:Format>
+    <ogr:Motion>0</ogr:Motion>
+    <ogr:Version>NAL5</ogr:Version>
+  </extensions>
+</wpt>
+<wpt lat="12.548683333333299" lon="144.490533333332991">
+  <fix>1</fix>
+  <extensions>
+    <ogr:UnitName>P</ogr:UnitName>
+    <ogr:ReportTimeUTC>06-15-2021 19:06:29.000</ogr:ReportTimeUTC>
+    <ogr:Lat>12.548683333333299</ogr:Lat>
+    <ogr:Lon>144.490533333332991</ogr:Lon>
+    <ogr:NumberOfSatellites>7</ogr:NumberOfSatellites>
+    <ogr:Altitude>-7.9 m</ogr:Altitude>
+    <ogr:Speed>1.9 km/h</ogr:Speed>
+    <ogr:Course>0.00 degrees from True North</ogr:Course>
+    <ogr:VerticalVelocity>0.2 m/s</ogr:VerticalVelocity>
+    <ogr:HorizDilutionofPrecision>1.02</ogr:HorizDilutionofPrecision>
+    <ogr:VertDilutionOfPrecision>1.5</ogr:VertDilutionOfPrecision>
+    <ogr:Format>GPSI</ogr:Format>
+    <ogr:Motion>0</ogr:Motion>
+    <ogr:Version>NAL5</ogr:Version>
+  </extensions>
+</wpt>
+<wpt lat="12.5418" lon="144.474766666666994">
+  <fix>1</fix>
+  <extensions>
+    <ogr:UnitName>P</ogr:UnitName>
+    <ogr:ReportTimeUTC>06-15-2021 21:07:03.000</ogr:ReportTimeUTC>
+    <ogr:Lat>12.5418</ogr:Lat>
+    <ogr:Lon>144.474766666666994</ogr:Lon>
+    <ogr:NumberOfSatellites>8</ogr:NumberOfSatellites>
+    <ogr:Altitude>-4.7 m</ogr:Altitude>
+    <ogr:Speed>0.7 km/h</ogr:Speed>
+    <ogr:Course>82.31 degrees from True North</ogr:Course>
+    <ogr:VerticalVelocity>0.0 m/s</ogr:VerticalVelocity>
+    <ogr:HorizDilutionofPrecision>0.94</ogr:HorizDilutionofPrecision>
+    <ogr:VertDilutionOfPrecision>1.57</ogr:VertDilutionOfPrecision>
+    <ogr:Format>GPSI</ogr:Format>
+    <ogr:Motion>0</ogr:Motion>
+    <ogr:Version>NAL5</ogr:Version>
+  </extensions>
+</wpt>
+<wpt lat="12.534466666666701" lon="144.4682">
+  <fix>1</fix>
+  <extensions>
+    <ogr:UnitName>P</ogr:UnitName>
+    <ogr:ReportTimeUTC>06-15-2021 23:06:41.000</ogr:ReportTimeUTC>
+    <ogr:Lat>12.534466666666701</ogr:Lat>
+    <ogr:Lon>144.4682</ogr:Lon>
+    <ogr:NumberOfSatellites>6</ogr:NumberOfSatellites>
+    <ogr:Altitude>-10.3 m</ogr:Altitude>
+    <ogr:Speed>1.6 km/h</ogr:Speed>
+    <ogr:Course>0.00 degrees from True North</ogr:Course>
+    <ogr:VerticalVelocity>-0.5 m/s</ogr:VerticalVelocity>
+    <ogr:HorizDilutionofPrecision>1.16</ogr:HorizDilutionofPrecision>
+    <ogr:VertDilutionOfPrecision>1.89</ogr:VertDilutionOfPrecision>
+    <ogr:Format>GPSI</ogr:Format>
+    <ogr:Motion>0</ogr:Motion>
+    <ogr:Version>NAL5</ogr:Version>
+  </extensions>
+</wpt>
+<wpt lat="12.5271333333333" lon="144.46425">
+  <fix>1</fix>
+  <extensions>
+    <ogr:UnitName>P</ogr:UnitName>
+    <ogr:ReportTimeUTC>06-16-2021 01:07:49.000</ogr:ReportTimeUTC>
+    <ogr:Lat>12.5271333333333</ogr:Lat>
+    <ogr:Lon>144.46425</ogr:Lon>
+    <ogr:NumberOfSatellites>4</ogr:NumberOfSatellites>
+    <ogr:Altitude>2.4 m</ogr:Altitude>
+    <ogr:Speed>1.4 km/h</ogr:Speed>
+    <ogr:Course>0.00 degrees from True North</ogr:Course>
+    <ogr:VerticalVelocity>0.0 m/s</ogr:VerticalVelocity>
+    <ogr:HorizDilutionofPrecision>3.99</ogr:HorizDilutionofPrecision>
+    <ogr:VertDilutionOfPrecision>4.42</ogr:VertDilutionOfPrecision>
+    <ogr:Format>GPSI</ogr:Format>
+    <ogr:Motion>0</ogr:Motion>
+    <ogr:Version>NAL5</ogr:Version>
+  </extensions>
+</wpt>
+<wpt lat="12.51915" lon="144.45805">
+  <fix>1</fix>
+  <extensions>
+    <ogr:UnitName>P</ogr:UnitName>
+    <ogr:ReportTimeUTC>06-16-2021 03:07:25.000</ogr:ReportTimeUTC>
+    <ogr:Lat>12.51915</ogr:Lat>
+    <ogr:Lon>144.45805</ogr:Lon>
+    <ogr:NumberOfSatellites>9</ogr:NumberOfSatellites>
+    <ogr:Altitude>-14.5 m</ogr:Altitude>
+    <ogr:Speed>1.0 km/h</ogr:Speed>
+    <ogr:Course>252.54 degrees from True North</ogr:Course>
+    <ogr:VerticalVelocity>0.2 m/s</ogr:VerticalVelocity>
+    <ogr:HorizDilutionofPrecision>1.15</ogr:HorizDilutionofPrecision>
+    <ogr:VertDilutionOfPrecision>1.4</ogr:VertDilutionOfPrecision>
+    <ogr:Format>GPSI</ogr:Format>
+    <ogr:Motion>0</ogr:Motion>
+    <ogr:Version>NAL5</ogr:Version>
+  </extensions>
+</wpt>
+<wpt lat="12.50695" lon="144.450166666667002">
+  <fix>1</fix>
+  <extensions>
+    <ogr:UnitName>P</ogr:UnitName>
+    <ogr:ReportTimeUTC>06-16-2021 05:06:52.000</ogr:ReportTimeUTC>
+    <ogr:Lat>12.50695</ogr:Lat>
+    <ogr:Lon>144.450166666667002</ogr:Lon>
+    <ogr:NumberOfSatellites>5</ogr:NumberOfSatellites>
+    <ogr:Altitude>1.7 m</ogr:Altitude>
+    <ogr:Speed>1.4 km/h</ogr:Speed>
+    <ogr:Course>232.27 degrees from True North</ogr:Course>
+    <ogr:VerticalVelocity>0.9 m/s</ogr:VerticalVelocity>
+    <ogr:HorizDilutionofPrecision>1.5</ogr:HorizDilutionofPrecision>
+    <ogr:VertDilutionOfPrecision>2.77</ogr:VertDilutionOfPrecision>
+    <ogr:Format>GPSI</ogr:Format>
+    <ogr:Motion>0</ogr:Motion>
+    <ogr:Version>NAL5</ogr:Version>
+  </extensions>
+</wpt>
+<wpt lat="12.4952" lon="144.439433333333">
+  <fix>1</fix>
+  <extensions>
+    <ogr:UnitName>P</ogr:UnitName>
+    <ogr:ReportTimeUTC>06-16-2021 07:07:30.000</ogr:ReportTimeUTC>
+    <ogr:Lat>12.4952</ogr:Lat>
+    <ogr:Lon>144.439433333333</ogr:Lon>
+    <ogr:NumberOfSatellites>4</ogr:NumberOfSatellites>
+    <ogr:Altitude>-11.4 m</ogr:Altitude>
+    <ogr:Speed>1.0 km/h</ogr:Speed>
+    <ogr:Course>265.95 degrees from True North</ogr:Course>
+    <ogr:VerticalVelocity>-0.2 m/s</ogr:VerticalVelocity>
+    <ogr:HorizDilutionofPrecision>12.1</ogr:HorizDilutionofPrecision>
+    <ogr:VertDilutionOfPrecision>8.4</ogr:VertDilutionOfPrecision>
+    <ogr:Format>GPSI</ogr:Format>
+    <ogr:Motion>0</ogr:Motion>
+    <ogr:Version>NAL5</ogr:Version>
+  </extensions>
+</wpt>
+</gpx>

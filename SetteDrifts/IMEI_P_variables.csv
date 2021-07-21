@@ -1,0 +1,11 @@
+UnitName,ReportTimeUTC,Lat,Lon,NumberOfSatellites,Altitude,Speed,Course,VerticalVelocity,Fix,HorizDilutionofPrecision,VertDilutionOfPrecision,Format,Motion,Version
+P,06-15-2021 13:07:01.000,12.5717166666667,144.518333333333,8,-7.6 m,0.6 km/h,243.13 degrees from True North,-0.1 m/s,1,1.05,1.47,GPSI,0,NAL5
+P,06-15-2021 15:06:31.000,12.5672,144.516983333333,7,-5.7 m,2.4 km/h,308.19 degrees from True North,0.4 m/s,1,1.12,2.59,GPSI,0,NAL5
+P,06-15-2021 17:07:03.000,12.5573333333333,144.507116666667,9,-7.9 m,2.2 km/h,236.66 degrees from True North,0.2 m/s,1,0.91,1.49,GPSI,0,NAL5
+P,06-15-2021 19:06:29.000,12.5486833333333,144.490533333333,7,-7.9 m,1.9 km/h,0.00 degrees from True North,0.2 m/s,1,1.02,1.5,GPSI,0,NAL5
+P,06-15-2021 21:07:03.000,12.5418,144.474766666667,8,-4.7 m,0.7 km/h,82.31 degrees from True North,0.0 m/s,1,0.94,1.57,GPSI,0,NAL5
+P,06-15-2021 23:06:41.000,12.5344666666667,144.4682,6,-10.3 m,1.6 km/h,0.00 degrees from True North,-0.5 m/s,1,1.16,1.89,GPSI,0,NAL5
+P,06-16-2021 01:07:49.000,12.5271333333333,144.46425,4,2.4 m,1.4 km/h,0.00 degrees from True North,0.0 m/s,1,3.99,4.42,GPSI,0,NAL5
+P,06-16-2021 03:07:25.000,12.51915,144.45805,9,-14.5 m,1.0 km/h,252.54 degrees from True North,0.2 m/s,1,1.15,1.4,GPSI,0,NAL5
+P,06-16-2021 05:06:52.000,12.50695,144.450166666667,5,1.7 m,1.4 km/h,232.27 degrees from True North,0.9 m/s,1,1.5,2.77,GPSI,0,NAL5
+P,06-16-2021 07:07:30.000,12.4952,144.439433333333,4,-11.4 m,1.0 km/h,265.95 degrees from True North,-0.2 m/s,1,12.1,8.4,GPSI,0,NAL5
