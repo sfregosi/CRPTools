@@ -8,6 +8,8 @@ chunk_xWavs.m is a script to break up single channel and multi-channel x.wav fil
 
 rdxwavhdr_so.m is a standalone/Triton based xwav header reader that you need on your path to get chunk_xWavs.m to work
 
+manipulate_tonals.m is a script that reads in Silbido .ann files and converts them to csv format.
+
 ## PAMpal_BANTER folder:
 Utilities (for R) to deal with issues across different versions of Pamguard/PAMpal/PAMr/BANTER
 
