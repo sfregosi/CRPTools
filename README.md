@@ -2,8 +2,10 @@
 Various tools for CRP projects, that others in CRP may find useful. Mix of R and Matlab. 
 
 ## FKW_annotation folder:
-Utilities for working with Lanai HARP data to create manual annotations of false killer whale (FKW) whistles. 
+Utilities for working with Lanai HARP data to create manual annotations of false killer whale (FKW) whistles.
+
 chunk_xWavs.m is a script to break up single channel and multi-channel x.wav files into smaller sizes that are more maneagable for processing through Silbido. 
+
 rdxwavhdr_so.m is a standalone/Triton based xwav header reader that you need on your path to get chunk_xWavs.m to work
 
 ## PAMpal_BANTER folder:
