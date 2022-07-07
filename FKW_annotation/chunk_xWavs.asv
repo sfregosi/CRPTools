@@ -27,13 +27,13 @@ warning('off')
 % computer/user specific inputs that may need to be updated
 
 % path to folder containing project subfolders
-% path_in = 'E:\Recordings';
-path_in = 'C:\Users\selene\Downloads\Recordings\';
+path_in = 'E:\Recordings';
+% path_in = 'C:\Users\selene\Downloads\Recordings\';
 
 % project subfolder name; uncomment which you want to run, one at a time
-% projectName = 'LANAI_A_01_S_disk01-03';
-projectName = 'LANAI_A_01_E_C4_disk01-06';
-% projectName = 'LANAI_A_01_W_C4_disk01-06';
+projectName = 'LANAI_A_01_S_disk01-03';
+% projectName = 'LANAI_A_01_E_C4_disk01-06';
+% projectName = 'LANAI_A_01_W_disk01-06';
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % set up outputs
@@ -43,17 +43,9 @@ mkdir(path_out);
 
 % get list of xwavs in this folder
 xwavList = dir(fullfile(path_in, projectName, '*.x.wav'));
-% eliminate all '.' and '..' files
-dotIdx = [];
-for f = 1:size(xwavList,1)
-    if xwavList(f).name(1) == '.'
-        dotIdx = [dotIdx, f]; % store the index of the file that starts with '.'
-    end
-end
-xwavList(dotIdx) = []; % remove all those flagged files
+fprintf(1, 'Starting %s, processing %i xwavs...\n', projectName, length(xwavList))
 
 % loop through all xwavs
-fprintf(1, 'Starting %s, processing %i xwavs...\n', projectName, length(xwavList))
 for xw = 1:length(xwavList)
     xwav = fullfile(xwavList(xw).folder, xwavList(xw).name);
     % read xwav header to get file info (num raw files, sample rate, etc.)
@@ -91,10 +83,8 @@ for xw = 1:length(xwavList)
         rfDur_samp = size(s,1)/hdr.xhd.NumOfRawFiles/fs;
         
         % loop through all raw files
-        fprintf(1, 'chunking %s, %i rf, %i ch', ...
-            xwavList(xw).name, hdr.xhd.NumOfRawFiles, hdr.nch)
+        fprintf(1, 'chunking %s, %i raw files, %i channels', , hdr.xhd.NumOfRawFiles)
         for rf = 1:hdr.xhd.NumOfRawFiles
-            fprintf(1, '.');
             % get new file name from raw file start time
             xdatevec = [hdr.xhd.year(rf)+2000 hdr.xhd.month(rf) hdr.xhd.day(rf) ...
                 hdr.xhd.hour(rf) hdr.xhd.minute(rf) hdr.xhd.secs(rf) + ...
@@ -127,7 +117,6 @@ for xw = 1:length(xwavList)
                     s(sampStart:sampEnd,1), fs);
             end % nch check
         end % loop through raw files
-        fprintf(1, '\n');
     end % nch check
 end % loop through all xwavs
 
